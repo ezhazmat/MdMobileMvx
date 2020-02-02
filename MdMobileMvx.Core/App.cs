@@ -14,7 +14,7 @@ namespace MdMobileMvx.Core
         public override void Initialize()
         {
             base.Initialize();
-            //RegisterAppStart();
+            RegisterCustomAppStart<AppStart>();
         }
     }
 }

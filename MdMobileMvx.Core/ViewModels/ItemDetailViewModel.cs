@@ -1,6 +1,7 @@
 ﻿using System;
 
-using MdMobileMvx.Models;
+using MdMobileMvx.Core.Models;
+using MdMobileMvx.Core.ViewModels;
 
 namespace MdMobileMvx.ViewModels
 {

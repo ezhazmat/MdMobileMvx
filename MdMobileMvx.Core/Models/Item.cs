@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MdMobileMvx.Models
+namespace MdMobileMvx.Core.Models
 {
     public class Item
     {

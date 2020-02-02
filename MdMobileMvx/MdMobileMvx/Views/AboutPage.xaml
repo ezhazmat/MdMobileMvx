@@ -5,11 +5,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="MdMobileMvx.Views.AboutPage"
-             xmlns:vm="clr-namespace:MdMobileMvx.ViewModels"
+             xmlns:vm1="clr-namespace:MdMobileMvx.ViewModels;assembly=MdMobileMvx.Core"
              Title="{Binding Title}">
     
     <ContentPage.BindingContext>
-        <vm:AboutViewModel />
+        <vm1:AboutViewModel />
     </ContentPage.BindingContext>
     
     <ContentPage.Resources>

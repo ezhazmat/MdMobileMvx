@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using MdMobileMvx.Models;
+using MdMobileMvx.Core.Models;
 using MdMobileMvx.Views;
 using MdMobileMvx.ViewModels;
 

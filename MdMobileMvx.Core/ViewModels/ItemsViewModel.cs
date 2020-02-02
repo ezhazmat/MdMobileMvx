@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-using MdMobileMvx.Models;
-using MdMobileMvx.Views;
+using MdMobileMvx.Core.Models;
+using MdMobileMvx;
+using MdMobileMvx.Core.ViewModels;
 
 namespace MdMobileMvx.ViewModels
 {
@@ -21,12 +22,12 @@ namespace MdMobileMvx.ViewModels
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
-            MessagingCenter.Subscribe<NewItemPage, Item>(this, "AddItem", async (obj, item) =>
+            /*MessagingCenter.Subscribe< NewItemPage, Item>(this, "AddItem", async (obj, item) =>
             {
                 var newItem = item as Item;
                 Items.Add(newItem);
                 await DataStore.AddItemAsync(newItem);
-            });
+            });*/
         }
 
         async Task ExecuteLoadItemsCommand()

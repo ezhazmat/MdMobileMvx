@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-
+using MvvmCross.ViewModels;
 using Xamarin.Forms;
 
-using MdMobileMvx.Models;
-using MdMobileMvx.Services;
+using MdMobileMvx.Core.Models;
+using MdMobileMvx.Core.Services;
 
-namespace MdMobileMvx.ViewModels
+namespace MdMobileMvx.Core.ViewModels
 {
-    public class BaseViewModel : INotifyPropertyChanged
+    public class BaseViewModel : MvxViewModel 
     {
         public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
 

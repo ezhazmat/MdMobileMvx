@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Xamarin.Essentials;
-using MdMobileMvx.Models;
+using MdMobileMvx.Core.Models;
 
-namespace MdMobileMvx.Services
+namespace MdMobileMvx.Core.Services
 {
     public class AzureDataStore : IDataStore<Item>
     {

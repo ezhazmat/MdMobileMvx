@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace MdMobileMvx.Services
+namespace MdMobileMvx.Core.Services
 {
     public interface IDataStore<T>
     {

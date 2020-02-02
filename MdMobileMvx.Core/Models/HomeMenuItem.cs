@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MdMobileMvx.Models
+namespace MdMobileMvx.Core.Models
 {
     public enum MenuItemType
     {

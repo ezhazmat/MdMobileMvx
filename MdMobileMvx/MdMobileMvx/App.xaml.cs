@@ -2,7 +2,7 @@
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using MdMobileMvx.Services;
+using MdMobileMvx.Core.Services;
 using MdMobileMvx.Views;
 
 namespace MdMobileMvx

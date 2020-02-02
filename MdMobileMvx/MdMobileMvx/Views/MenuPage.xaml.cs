@@ -1,4 +1,4 @@
-﻿using MdMobileMvx.Models;
+﻿using MdMobileMvx.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

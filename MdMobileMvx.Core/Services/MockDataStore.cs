@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MdMobileMvx.Models;
+using MdMobileMvx.Core.Models;
 
-namespace MdMobileMvx.Services
+namespace MdMobileMvx.Core.Services
 {
     public class MockDataStore : IDataStore<Item>
     {

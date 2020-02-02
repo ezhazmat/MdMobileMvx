@@ -3,7 +3,7 @@ using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using MdMobileMvx.Models;
+using MdMobileMvx.Core.Models;
 using MdMobileMvx.ViewModels;
 
 namespace MdMobileMvx.Views
